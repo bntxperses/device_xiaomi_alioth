@@ -35,6 +35,10 @@ vendor.audio_hal.period_multiplier=2
 # Display
 ro.vendor.display.paneltype=2
 vendor.display.defer_fps_frame_count=2
+ro.surface_flinger.set_display_power_timer_ms=1000
+ro.surface_flinger.set_idle_timer_ms=80
+ro.surface_flinger.set_touch_timer_ms=200
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
 
 # DisplayFeature
 persist.vendor.dc_backlight.enable=false
@@ -51,7 +55,7 @@ ro.vendor.cabc.enable=false
 ro.vendor.colorpick_adjust=true
 ro.vendor.df.effect.conflict=1
 ro.vendor.dfps.enable=false
-ro.vendor.display.default_fps=60
+ro.vendor.display.default_fps=120
 ro.vendor.display.type=oled
 ro.vendor.fod.dimlayer.enable=true
 ro.vendor.gcp.enable=1
