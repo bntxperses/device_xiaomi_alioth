@@ -1,0 +1,7 @@
+// Copyright (C) 2024 GenesisOS
+// SPDX-License-Identifer: Apache-2.0
+runtime_resource_overlay {
+    name: "AliothFrameworksOverlay",
+    sdk_version: "current",
+    product_specific: true,
+}
