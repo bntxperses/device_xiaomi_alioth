@@ -1,0 +1,7 @@
+// Copyright (C) 2024 GensisOS
+// SPDX-License-Identifer: Apache-2.0
+runtime_resource_overlay {
+    name: "AliothDisplayOverlay",
+    sdk_version: "current",
+    vendor: true,
+}
